@@ -3,8 +3,8 @@ package signature
 import java.io.File
 import java.util.Scanner
 
-val stream = File("C:/Users/Shiel/Desktop/Studies/src/Fonts/roman.txt").readLines()
-val stream2 = File("C:/Users/Shiel/Desktop/Studies/src/Fonts/medium.txt").readLines()
+val stream = File("File directory here").readLines()
+val stream2 = File("File directory here").readLines()
 val scanner = Scanner(System.`in`)
 
 enum class Roman(val ar: Array<String>, val size: Int) {
